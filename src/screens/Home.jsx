@@ -1,15 +1,19 @@
-import Body from "../components/Home/Body";
-import Footer from "../components/Home/Footer";
-import Github from "../components/Home/Github";
-import Logo from "../components/Home/Logo";
+import OpenLink from "../components/Core/OpenLink";
 
-const Home = () =>{
+import Body from '../Components/Home/Body.jsx';
+import Footer from '../Components/Home/Footer.jsx';
+
+import viteLogo from "../assets/vite.svg";
+import reactLogo from "../assets/react.svg";
+import githubLogo from "../assets/github.svg";
+const Home = () => {
     return (
         <div>
-            <Logo/>
-            <Github/>
-            <Body/>
-            <Footer/>
+            <OpenLink redirectURL="https://vite.dev" logoImage={reactLogo} />
+            <OpenLink redirectURL="https://react.dev" logoImage={viteLogo} />
+            <OpenLink redirectURL="https://github.com/alvaro696/frontend-readct" logoImage={githubLogo} />
+            <Body />
+            <Footer />
         </div>
     );
 };
