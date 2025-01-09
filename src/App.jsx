@@ -1,10 +1,12 @@
 import './App.css'
-import Default from './components/default'
-function App() {
+import Home from './screens/Home'
+
+
+const App = () => {
 
   return (
     <>
-      <Default />
+      <Home/>
     </>
   )
 }
