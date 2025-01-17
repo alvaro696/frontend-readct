@@ -1,7 +1,7 @@
 import OpenLink from "../components/Core/OpenLink";
 
-import Body from '../Components/Home/Body.jsx';
-import Footer from '../Components/Home/Footer.jsx';
+import Body from '../components/Home/Body.jsx';
+import Footer from '../components/Home/Footer.jsx';
 
 import viteLogo from "../assets/vite.svg";
 import reactLogo from "../assets/react.svg";
