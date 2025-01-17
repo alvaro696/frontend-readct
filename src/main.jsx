@@ -12,7 +12,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/frontend-readct/">
+      <BrowserRouter basename="/frontend-readct">
         <App />
       </BrowserRouter>
     </Provider>
