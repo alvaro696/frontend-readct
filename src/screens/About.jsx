@@ -1,6 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { setInitialValue } from "../store/features/product/productSlice";
 import { useState } from "react";
+
 const About = () => {
     const products = useSelector((state) => state.product.initialValue)
     const dispatch = useDispatch()

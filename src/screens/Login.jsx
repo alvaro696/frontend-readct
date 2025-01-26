@@ -5,7 +5,7 @@ import FormWithMotionAndHook from "../components/Forms/FormLoginWithMotion";
 const Login = () => {
     return (
         <>
-            <FormWithMotionAndHook titleForm={'Bienvenido'}/>
+            <FormWithMotionAndHook titleForm={'Welcome to FullStack Program'}/>
         </>
     );
 }
